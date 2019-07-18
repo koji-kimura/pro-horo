@@ -36,7 +36,7 @@ export default {
   },
   computed: {
     shuffleCard() {
-      return require(`../assets/img${this.cardNum}.png`);
+      return require(`@/assets/img${this.cardNum}.png`);
     },
     isReverseWord() {
       if (this.isReverse) {

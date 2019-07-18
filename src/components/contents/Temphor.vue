@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import Result from "@/components/Result";
+import Result from "@/components/contents/parts/TemphorResult.vue";
 
 export default {
   data: () => ({
