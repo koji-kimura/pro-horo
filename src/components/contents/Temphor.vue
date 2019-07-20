@@ -3,8 +3,10 @@
     <v-layout text-xs-center wrap>
       <v-flex mb-4>
         <h1 class="display-2 font-weight-bold mb-3">今のあなたの運勢</h1>
-
-        <v-btn color="info" @click="tellMe()" v-if="!isTold">占ってみる</v-btn>
+        <div v-if="!isTold">
+          <h2 class="mb-2">ボタンを教えて今の運勢を占ってみよう</h2>
+          <v-btn color="info" @click="tellMe()">占ってみる</v-btn>
+        </div>
         <Result v-if="isTold" />
       </v-flex>
     </v-layout>
