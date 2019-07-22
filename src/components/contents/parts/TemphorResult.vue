@@ -5,6 +5,8 @@
       <!-- <img src="@/assets/img1.png" alt /> -->
       <div class="resultCardWrapper">
         <img :src="shuffleCard" alt="予言結果" :class="{isReverse}" class="resultCard" />
+        <p>（各カードにたいしてのまろうさんについてのリアクション付き画像か、カードだけなのかどっちがいいですかね？）</p>
+        <p>（タロットカードってフリー素材の画像あったりするんですかね？）</p>
       </div>
       <h3>
         詳細が知りたい？
