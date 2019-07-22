@@ -1,5 +1,5 @@
 <template>
-  <v-navigation-drawer absolute v-model="drawer">
+  <v-navigation-drawer absolute v-model="drawer"  class="hidden-lg-and-up">
     <v-divider></v-divider>
 
     <v-list dense class="pt-0">
