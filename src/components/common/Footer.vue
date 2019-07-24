@@ -4,10 +4,10 @@
       <v-btn v-for="link in links" :key="link" flat>
         <a :href="link.address" target="_blank">{{ link.name }}</a>
       </v-btn>
-      <v-flex py-3 text-xs-center xs12>
+      <!-- <v-flex py-3 text-xs-center xs12>
         &copy;2019 —
         <strong>k-kimura</strong>
-      </v-flex>
+      </v-flex>-->
     </v-layout>
   </v-footer>
 </template>
@@ -18,10 +18,14 @@ export default {
     links: [
       {
         name: "まろうさん個人アカウント",
-        address: "#"
+        address: "https://twitter.com/marouyome"
       },
-      { name: "ことりページ", address: "#" },
-      { name: "ルームホームページ", address: "#" }
+      // { name: "ことりページ", address: "#" },
+      // { name: "ルームホームページ", address: "#" },
+      {
+        name: "本ページについての問い合わせ",
+        address: "https://forms.gle/pDGTYajZvatpRwT87"
+      }
     ],
     test: "aaa"
   })

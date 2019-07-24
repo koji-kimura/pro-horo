@@ -3,12 +3,17 @@
     <v-layout text-xs-center wrap>
       <v-flex mb-4>
         <h1 class="display-2 font-weight-bold mb-3">このページについて</h1>
-        <img src="@/assets/top_temp.png" alt="まろうさん顔写真をおく予定" height="200px" />
+        <img src="@/assets/marou3.jpg" alt="まろうさん" class="marouImg" />
+        <p>このページはまろうのページです。本人の了承が得られたので勝手に作ったページです。</p>
         <p>
-          (画像は仮置き)
-          <br />(それっぽいまろうさんの写真とかここに置きたい)
+          まろうさんは占い師で
+          <a href="http://game.cotori.net/jinro_room/" target="_blank">人狼ルーム</a>
+          のゲームマスターです。
         </p>
-        <p>このページはマジよく当たるまろうのページです。まろうさんは占い師です。勝手に作ったページです。</p>
+        <p>
+          占いをお願いした場合は
+          <a href="https://twitter.com/uranaijigyoubu" target="_blank">こちら</a>に問い合わせてみてください。
+        </p>
       </v-flex>
     </v-layout>
   </v-container>
@@ -17,5 +22,12 @@
 <script>
 </script>
 
-<style>
+<style scoped>
+.marouImg {
+  height: 210px;
+  width: 250px;
+  margin: 30px 0;
+  object-fit: cover;
+  object-position: 0 30px;
+}
 </style>
