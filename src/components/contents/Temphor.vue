@@ -4,7 +4,8 @@
       <v-flex mb-4>
         <h1 class="display-2 font-weight-bold mb-3">今のあなたの運勢</h1>
         <div v-if="!isTold">
-          <h2 class="mb-2">ボタンを教えて今の運勢を占ってみよう</h2>
+          <h2 class="mb-2">ボタンを押して今の運勢を占ってみよう</h2>
+          <img src="@/assets/marou4.jpg" alt="占うまろうさん" class="img" />
           <v-btn color="info" @click="tellMe()">占ってみる</v-btn>
         </div>
         <Result v-if="isTold" />
@@ -30,4 +31,9 @@ export default {
 </script>
 
 <style>
+.img {
+  height: 350px;
+  display: block;
+  margin: 20px auto;
+}
 </style>

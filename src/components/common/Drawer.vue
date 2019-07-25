@@ -1,5 +1,5 @@
 <template>
-  <v-navigation-drawer absolute v-model="drawer"  class="hidden-lg-and-up">
+  <v-navigation-drawer absolute v-model="drawer" class="hidden-lg-and-up">
     <v-divider></v-divider>
 
     <v-list dense class="pt-0">
@@ -21,9 +21,9 @@ export default {
     return {
       items: [
         { title: "アバウトまろう", link: "/about" },
-        { title: "今のあなたの運勢", link: "/temphor" },
-        { title: "占い実績", link: "/performance" },
-        { title: "twitter", link: "#" }
+        { title: "今のあなたの運勢", link: "/temphor" }
+        // { title: "占い実績", link: "/performance" },
+        // { title: "twitter", link: "#" }
       ],
       drawer: true
     };
