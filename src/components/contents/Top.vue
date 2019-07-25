@@ -12,7 +12,7 @@
         </p>
         <p>
           占いをお願いした場合は
-          <a href="https://twitter.com/uranaijigyoubu" target="_blank">こちら</a>に問い合わせてみてください。
+          <a href="https://twitter.com/marouyome" target="_blank">こちら</a>に問い合わせてみてください。
         </p>
       </v-flex>
     </v-layout>

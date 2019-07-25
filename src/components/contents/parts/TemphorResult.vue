@@ -10,7 +10,7 @@
       <h3>
         詳細が知りたい？
         なら、
-        <a href="https://twitter.com/uranaijigyoubu" target="_brank">ここ</a>に問い合わせてくれ...
+        <a href="https://twitter.com/marouyome" target="_brank">ここ</a>に問い合わせてくれ...
       </h3>
     </div>
   </transition>
